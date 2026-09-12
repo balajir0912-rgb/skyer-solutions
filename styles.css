@@ -876,3 +876,36 @@ footer{
     justify-content:center !important;
   }
 }
+/* FINAL IMAGE CLARITY FIX */
+
+.hero-overlay{
+  position:absolute !important;
+  inset:0 !important;
+  z-index:2 !important;
+  pointer-events:none !important;
+  background:transparent !important;
+}
+
+.hero-overlay::before{
+  content:"" !important;
+  position:absolute !important;
+  left:0 !important;
+  top:0 !important;
+  bottom:0 !important;
+  width:58% !important;
+
+  background:linear-gradient(
+    90deg,
+    rgba(255,255,255,1) 0%,
+    rgba(255,255,255,.98) 25%,
+    rgba(255,255,255,.80) 42%,
+    rgba(255,255,255,.42) 62%,
+    rgba(255,255,255,0) 100%
+  ) !important;
+}
+
+.hero-background img{
+  opacity:1 !important;
+  filter:none !important;
+  mix-blend-mode:normal !important;
+}
