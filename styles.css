@@ -745,20 +745,20 @@ footer{
   object-fit:cover !important;
   object-position:58% center !important;
 }
-
-.hero-overlay{
+  .hero-overlay{
   position:absolute !important;
   inset:0 !important;
   z-index:2 !important;
   pointer-events:none !important;
+
   background:linear-gradient(
     90deg,
-    #ffffff 0%,
-    rgba(255,255,255,.98) 22%,
-    rgba(255,255,255,.90) 34%,
-    rgba(255,255,255,.65) 45%,
-    rgba(255,255,255,.28) 57%,
-    rgba(255,255,255,0) 72%
+    rgba(255,255,255,1) 0%,
+    rgba(255,255,255,.94) 17%,
+    rgba(255,255,255,.72) 30%,
+    rgba(255,255,255,.40) 42%,
+    rgba(255,255,255,.12) 54%,
+    rgba(255,255,255,0) 68%
   ) !important;
 }
 
